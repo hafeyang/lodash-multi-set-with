@@ -1,5 +1,5 @@
-# lodash-multil-set-with
-`lodash-multil-set-with` a [lodash](https://github.com/lodash/lodash) mixin used to manipulate javascript object elegantly
+# lodash-multi-set-with
+`lodash-multi-set-with` a [lodash](https://github.com/lodash/lodash) mixin used to multi set values with context in object
 
 assume we want mapping `status` value in an object `[{toreview:{status:1},reviewed:{status:2}},toreview:{status:1},reviewed:{status:2}}]`
 
