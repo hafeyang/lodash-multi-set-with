@@ -49,9 +49,9 @@ _.multiSetWith(arr,"*.toreview,reviewed.status",mapping);
 
 ## API
 
-`_.multiSetWith(object, lodash-multi-set-withion, mapping, [context]):object`
+`_.multiSetWith(object, expression, mapping, [context]):object`
 
-### `lodash-multi-set-withion`:
+### `expression`:
 
 * `key.subkey` object key or array index
 * `key1,key2` multiple sibling keys or array indexes
