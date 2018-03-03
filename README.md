@@ -93,3 +93,8 @@ depth filtering object inspired from [https://gist.github.com/hafeyang/1d1295005
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 Thanks
+
+[npm-image]: https://img.shields.io/npm/v/lodash-multi-set-with.svg
+[npm-url]: https://npmjs.org/package/lodash-multi-set-with
+[downloads-image]: https://img.shields.io/npm/dm/lodash-multi-set-with.svg
+[downloads-url]: https://npmjs.org/package/lodash-multi-set-with
