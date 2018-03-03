@@ -1,9 +1,18 @@
 # lodash-multi-set-with
 
-![Travis CI](https://api.travis-ci.org/hafeyang/lodash-multi-set-with.svg?branch=master)
+[![Build][travis-image]][travis-url]
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
-[![Coverage Status](https://coveralls.io/repos/github/hafeyang/lodash-multi-set-with/badge.svg?branch=master)](https://coveralls.io/github/hafeyang/lodash-multi-set-with?branch=master)
+[![Test Coverage][coveralls-image]][coveralls-url]
+
+[npm-image]: https://img.shields.io/npm/v/lodash-multi-set-with.svg
+[npm-url]: https://npmjs.org/package/lodash-multi-set-with
+[downloads-image]: https://img.shields.io/npm/dm/lodash-multi-set-with.svg
+[downloads-url]: https://npmjs.org/package/lodash-multi-set-with
+[travis-image]: https://img.shields.io/travis/hafeyang/lodash-multi-set-with/master.svg
+[travis-url]: https://travis-ci.org/hafeyang/lodash-multi-set-with
+[coveralls-image]: https://img.shields.io/coveralls/hafeyang/lodash-multi-set-with/master.svg
+[coveralls-url]: https://coveralls.io/r/hafeyang/lodash-multi-set-with?branch=master
 
 `lodash-multi-set-with` a [lodash](https://github.com/lodash/lodash) mixin used to multi set values with context in object
 
@@ -40,9 +49,9 @@ _.multiSetWith(arr,"*.toreview,reviewed.status",mapping);
 
 ## API
 
-`_.multiSetWith(object, expression, mapping, [context]):object`
+`_.multiSetWith(object, lodash-multi-set-withion, mapping, [context]):object`
 
-### `expression`:
+### `lodash-multi-set-withion`:
 
 * `key.subkey` object key or array index
 * `key1,key2` multiple sibling keys or array indexes
@@ -94,7 +103,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Thanks
 
-[npm-image]: https://img.shields.io/npm/v/lodash-multi-set-with.svg
-[npm-url]: https://npmjs.org/package/lodash-multi-set-with
-[downloads-image]: https://img.shields.io/npm/dm/lodash-multi-set-with.svg
-[downloads-url]: https://npmjs.org/package/lodash-multi-set-with
