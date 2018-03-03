@@ -18,6 +18,11 @@ arr.forEach((row)=>{
 
 ```
 now we can code like this:
+
+```
+npm i lodash lodash-multi-set-with
+
+```
 ```js
 
 const _ = require('lodash');
