@@ -5,6 +5,7 @@ node_js:
 deploy:
   provider: npm
   email: yanghengfeng@163.com
+  api_key: c27d6531-5dd6-4746-ba75-52c959b0a6aa
 
 env:
   global:
