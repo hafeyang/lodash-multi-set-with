@@ -3,6 +3,7 @@
 ![Travis CI](https://api.travis-ci.org/hafeyang/lodash-multi-set-with.svg?branch=master)
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
+[![Coverage Status](https://coveralls.io/repos/github/hafeyang/lodash-multi-set-with/badge.svg?branch=master)](https://coveralls.io/github/hafeyang/lodash-multi-set-with?branch=master)
 
 `lodash-multi-set-with` a [lodash](https://github.com/lodash/lodash) mixin used to multi set values with context in object
 

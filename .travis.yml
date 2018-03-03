@@ -7,6 +7,8 @@ deploy:
   email: yanghengfeng@163.com
   api_key: c27d6531-5dd6-4746-ba75-52c959b0a6aa
 
+after_script: "npm install -g coveralls@2.10.0 nyc && nyc npm test && nyc report --reporter=text-lcov | coveralls"
+
 env:
   global:
     secure: Zf6ieqFsPMKPcz02xeJDbi8McVxT2H8T24PZXyBXpcu1NLfBk+03AyMmPhkmiiBhvSAu9O4oj2y5iIOQgBUZCPm1wUBE0F74BdlwQA6rFiN1fV0NFk3L6BmudA//xdHDwouzdD6p5U52+Msrt7c2TEGsFwEqGrm4VrU/ve+BpcjEmb05NHHh4n7/NVb3iwBn/I6aVq98sEDOKemUTv2v5JuEZE97swmfEMwEb/BHobJ2eBAsmjXNM4n0KacWGHbvzSp9qFPuUiGAXnppUnKdpOyLr3jS9Wnqa0oPFdQiYmZHlqKfUQzvtMO6QYU0s4umdDFLrhVl8pzRXEHUir7xewFstZ44YuuvG6Nc6bEcSbc707HpW7etUICNvqz9mg7n+MpmNjlicBANEbjxt9dqC2phdnD0NmRjgkrt/gjIV8E/4P2lol96RpYvNT1IscJpCRq0qN8ocaQ2UKYJ7fh4oSaD/vVVWTAoQc8/aj+elGk+27PMVdw3RCf/CiZ2A9o+Q548QYsAuldH0/H8S2Xn0Lhu2mG1HdbyB6zcRsmuJmyZCjVpQyE8U13xTkTiTHrXzDSpYSrmh/tjQh7U+bo9HGt2vdwg3nCJa8VY6SonP/kA6gberV/EG6QTYeRJvAzSYjnglHlvYInmib4zoWeYq5g6muHQt9fBcKHSM8A89yg=
