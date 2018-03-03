@@ -1,4 +1,7 @@
 # lodash-multi-set-with
+
+![Travis CI](https://api.travis-ci.org/hafeyang/lodash-multi-set-with.svg?branch=master)
+
 `lodash-multi-set-with` a [lodash](https://github.com/lodash/lodash) mixin used to multi set values with context in object
 
 assume we want mapping `status` value in an object `[{toreview:{status:1},reviewed:{status:2}},toreview:{status:1},reviewed:{status:2}}]`
