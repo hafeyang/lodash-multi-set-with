@@ -1,7 +1,6 @@
 # lodash-multi-set-with
 
 ![Travis CI](https://api.travis-ci.org/hafeyang/lodash-multi-set-with.svg?branch=master)
-
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 
