@@ -26,6 +26,7 @@ module.exports = {
     "import/no-extraneous-dependencies": ["error", {
       "devDependencies": ['**/tests/**/*.js'],
     }],
+    "no-loop-func":0
   },
   plugins: [
   ]
