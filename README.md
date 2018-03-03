@@ -24,10 +24,10 @@ arr.forEach((row)=>{
 ```
 now we can code like this:
 
-```
+```shell
 npm i lodash lodash-multi-set-with
-
 ```
+
 ```js
 
 const _ = require('lodash');
