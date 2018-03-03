@@ -3,3 +3,8 @@ language: node_js
 node_js:
 - node
 - "8"
+
+deploy:
+  provider: npm
+  email: "yanghengfeng@163.com"
+  secure: "QmfdJnpR3GDpXhbk+Jmo//joRcdJyxdT+MXZCU7TGTfJtjzadKt5Hq5oKCz0z+AD1old3Ws3nxqgYl6KX52fVUVK7MV1JcHWgtTWe1ZOSCjClUsQKXHpNrKKk6CJY+8fdqHMPOoEoMCGa3eYDeVsH7nKfooYI91hpzHnjgrcXi38wpPRI7IhZIJA+2MaHDC1GSl9pCwzRvPQhQc7raI4UHM8nELHhDRYt8WuEP0P8FuKwra1EBKXY283PItvbBmoAmtBdrM77FEvG3HKPXZyQY2Zyz++WDruoTwB4FZcVdkkhfAOHHFLmfMXwHPgEJ6KELNTMB/dCN3AI4EHsxzwM6tiguHviEC/k8cUBtTjW0JEffAvxgjyGn8qt+VN9xK7+1WsRN5U+yvqq63pTZSyARJxCa1R+T7pz/KWAFfur2jZa37jKHMbt7d5ZmnY51AinAC/kkN1F/c0rXZUl/2dLRNMfKTdtmHXcrEXUftOZhronTlz5MV/6vIFN4oNF9/mp8JuGkRPPQvjhRXCHoWSpgOiLgp/PtwJvW5xtdDF0uytIrllNPAb5f6Ny8UUKQxEePEbbfyPI8Epg5Oriuw0TfNuIs6js06+4j5bTi7dwfjH9t7bydfFT3N8a3pVIXThpjewWPMZHzKxiJylWpXYs8X7dQrMnID+V2wE4JbenGU="
