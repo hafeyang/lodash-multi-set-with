@@ -1,6 +1,6 @@
 
 
-const test = require('ava').test;
+const { test } = require('ava');
 const _ = require('lodash');
 require('../index');
 

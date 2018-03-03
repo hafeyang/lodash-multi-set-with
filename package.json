@@ -1,7 +1,7 @@
 {
   "name": "lodash-multi-set-with",
   "version": "1.0.0",
-  "description": "a lodash mixin used to manipulate javascript object elegantly",
+  "description": "a lodash mixin used to manipulate javascript object element elegantly",
   "main": "index.js",
   "scripts": {
     "test": "ava -v"
