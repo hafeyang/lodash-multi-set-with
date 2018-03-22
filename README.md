@@ -41,7 +41,9 @@ npm i lodash lodash-multi-set-with
 ```js
 
 const _ = require('lodash');
-require('lodash-multi-set-with'); // now we have `multiSetWith` method
+const multiSetWith =  require('lodash-multi-set-with');
+_.mixin(multiSetWith);
+// now we have `multiSetWith` method
 
 _.multiSetWith(arr,"*.toreview,reviewed.status",mapping);
 
