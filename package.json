@@ -27,7 +27,7 @@
     "failFast": false
   },
   "dependencies": {
-    "ava": "^0.25.0",
+    "ava": "^3.0.0",
     "lodash": "^4.17.20"
   },
   "devDependencies": {
