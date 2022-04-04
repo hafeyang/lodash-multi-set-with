@@ -3,9 +3,8 @@
   "version": "1.2.0",
   "description": "a lodash mixin used to manipulate javascript object element elegantly",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "ava -v",
+    "test": "jest",
     "lint": "eslint ."
   },
   "repository": {
@@ -19,21 +18,27 @@
     "url": "https://github.com/hafeyang/lodash-multi-set-with/issues"
   },
   "homepage": "https://github.com/hafeyang/lodash-multi-set-with#readme",
-  "ava": {
-    "files": [
-      "test/**/*.test.js"
-    ],
-    "concurrency": 25,
-    "serial": true,
-    "failFast": false
-  },
   "dependencies": {
     "lodash": "^4.17.20"
   },
   "devDependencies": {
-    "ava": "^4.1.0",
+    "jest": "^27.5.1",
+    "@types/jest": "^27.4.1",
     "eslint": "^8.12.0",
     "eslint-config-airbnb-base": "^11.1.3",
     "eslint-plugin-import": "^2.25.4"
+  },
+  "jest": {
+    "modulePaths": [
+      "<rootDir>"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "index.js"
+    ],
+    "coverageReporters": [
+      "text",
+      "text-summary"
+    ]
   }
 }

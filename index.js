@@ -6,7 +6,7 @@
  // console.log(_(data).multiSetWith("items.$.a,b", (v, context) => v * context.m, { m: 2 }));
  // returns  { base: 10,items: [ { a: 2, b: 4 }, { a: 8, b: 4 }, { b: 4, a: NaN } ] }
  */
-import _ from 'lodash';
+const _ = require("lodash");
 
 /**
  * determine object is plan object
@@ -70,4 +70,4 @@ const multiSetWith = (root, expr, replacer = v => v, context = {}) => {
 // extend lodash
 _.mixin({ multiSetWith });
 
-export default multiSetWith;
+module.exports = multiSetWith;

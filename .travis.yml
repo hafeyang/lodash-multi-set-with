@@ -1,13 +1,13 @@
 language: node_js
 node_js:
-- node
-- '14'
+  - node
+  - "14"
 deploy:
   provider: npm
   email: yanghengfeng@163.com
   api_key: c27d6531-5dd6-4746-ba75-52c959b0a6aa
 
-after_script: "npm install -g coveralls@2.10.0 nyc && nyc npm test && nyc report --reporter=text-lcov | coveralls"
+after_script: "npm run test"
 
 env:
   global:
