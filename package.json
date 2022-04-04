@@ -3,6 +3,7 @@
   "version": "1.0.8",
   "description": "a lodash mixin used to manipulate javascript object element elegantly",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "ava -v",
     "lint": "eslint ."
@@ -27,12 +28,12 @@
     "failFast": false
   },
   "dependencies": {
-    "ava": "^0.25.0",
+    "ava": "^4.1.0",
     "lodash": "^4.17.20"
   },
   "devDependencies": {
-    "eslint": "^4.18.1",
+    "eslint": "^8.12.0",
     "eslint-config-airbnb-base": "^11.1.3",
-    "eslint-plugin-import": "^2.2.0"
+    "eslint-plugin-import": "^2.25.4"
   }
 }

@@ -1,8 +1,8 @@
-
-
-const { test } = require('ava');
-const _ = require('lodash');
-require('../index');
+/* eslint-disable import/no-unresolved */
+/* eslint-disable import/extensions */
+import test from 'ava';
+import _ from 'lodash';
+import '../index.js';
 
 test('multi_set_with: should return as expected', async (t) => {
   const data = { base: 10, items: [{ a: 1, b: 2, c: 5 }, { a: 4, b: 2, c: 5 }, { b: 2, c: 5 }] };
@@ -39,7 +39,7 @@ test('multi_set_with: should return as expected when using $$', async (t) => {
       }]
   });
 });
-test('multi_set_with: should return as expected when using $$', async (t) => {
+test('multi_set_with: should return as expected when using $$ #2', async (t) => {
   const data = {
     P: [
       {
