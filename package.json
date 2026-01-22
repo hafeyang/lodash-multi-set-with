@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/hafeyang/lodash-multi-set-with#readme",
   "dependencies": {
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.23"
   },
   "devDependencies": {
     "jest": "^27.5.1",
